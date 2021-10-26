@@ -20,6 +20,6 @@ jobs:
        path: ${{ matrix.projectPath }}/Library
 
     - name: Build
-      run: dotnet build ./-CbyerNinja2
+      run: dotnet build ./CbyerNinja2
     - name: Test
-      run: dotnet test  ./-CbyerNinja2
+      run: dotnet test  ./CbyerNinja2
