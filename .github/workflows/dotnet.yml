@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore ./CbyerNinja2
+      run: dotnet restore ./-CbyerNinja2
     - name: Build
-      run: dotnet build ./CbyerNinja2
+      run: dotnet build ./-CbyerNinja2
     - name: Test
-      run: dotnet test --no-build ./CbyerNinja2
+      run: dotnet test  ./-CbyerNinja2
