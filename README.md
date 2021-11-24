@@ -2,7 +2,8 @@
 
 1.Run activation.yml to generate your Unity License
 
-2.Download Unity License after activation.yml run 
+
+2.Click file from actions and download Unity License.
 
 3.upload your liscense to secrets on Settings named UNITY_LICENSE
 
